@@ -1,0 +1,164 @@
+body
+{
+    background-color: #232227;
+}
+
+.profile
+{
+    width: 200px;
+    height: 200px;
+    border: 3px solid orange;
+    background-color: gray;
+    margin-top: 30px;
+    color: white;
+    margin-left: 30px;
+    position: absolute;
+    border-radius: 100px;
+}
+
+.find_box
+{
+    width: 900px;
+    height: 50px;
+    border: 3px solid orange;
+    position: relative;
+    margin-left: 300px;
+    border-radius: 7px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.find_box input
+{
+    width: 892px;
+    height: 45px;
+    background-color: #232227;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.find_box button
+{
+    width: 100px;
+    height:50px;
+    position:absolute;
+    right:0;
+    top:0;
+    background-color: greenyellow;
+    border-radius: 7px;
+    color: gray;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.find_box button:hover
+{
+    background-color: green;
+}
+
+.My_repo
+{
+    display: flex;
+    align-items: center;
+}
+
+.My_repo button
+{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    position: absolute;
+    margin-top:-56px;
+    margin-left: 1003px;
+    background-color: greenyellow;
+    font-weight: 700;
+    font-size: 20px;
+    color: gray;
+}
+
+.My_repo button:hover
+{
+    background-color: green;
+}
+
+.Settings
+{
+    margin-left: 30px;
+    margin-top: 250px;
+}
+
+.Settings button
+{
+    width: 200px;
+    height: 50px;
+    border: 3px solid orange;
+    background-color: yellowgreen;
+    color: gray;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.Settings button:hover
+{
+    background-color: green;
+}
+
+.Repositories
+{
+    width: 900px;
+    height: 503px;
+    background-color: #232227;
+    margin-left: 300px;
+    border: 3px solid orange;
+    color: white;
+    position: absolute;
+    top: 150px;
+    border-radius: 7px;
+}
+
+.Repositories .line 
+{
+    content: "";
+    display: block;
+    border-bottom: 2px solid gray;
+    font-size: 30px;
+    cursor:pointer;
+}
+
+.Repositories .line:hover
+{
+    background-color: gray;
+}
+
+.Repositories .column
+{
+    content: ""; 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 95%;
+    border-left: 2px solid gray;
+}
+
+#column_button
+{
+    width: 43px;
+    height: 41px;
+    background-color: #232227;
+    color: orange;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: none;
+}
+
+#column_button:hover
+{
+    background-color: gray;
+}
